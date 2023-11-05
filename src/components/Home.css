@@ -1,0 +1,19 @@
+.gallery-body{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(150px,1fr)) ;
+    grid-template-rows:repeat(auto-fit, minmax(150px,1fr)) ;
+    grid-gap: 20px;
+    
+  }
+  
+  .gallery-main{
+    display:grid;
+    width:980px;
+    height:auto;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: white;
+    margin-top: 20px;
+   
+  }
+  
