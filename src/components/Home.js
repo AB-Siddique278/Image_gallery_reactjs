@@ -64,7 +64,7 @@ const Home = () => {
 
 
 
-    return (<div className="gallery-main  pb-5 px-2">
+    return (<div className="gallery-main  pb-5 px-2 ">
       
 
         {selectedImages.length === 0 ? <p className=' text-lg font-bold p-5 flex items-center '>Gallery</p>
